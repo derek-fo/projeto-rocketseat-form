@@ -148,28 +148,129 @@
                     </fieldset>
 
                     <fieldset class="gardian">Informações do
-                        responsável</fieldset>
-                    <div class="input-wrapper">
-                        <label for="gardian">Nome do
-                            responsável</label>
-                        <input type="text" name="gardian"
-                            id="gardian">
-                        <small>Principal responsável</small>
-                    </div>
-                    <div class="input-wrapper">
-                        <label for="phone">Telefone</label>
-                        <input type="text" name="phone" id="phone"
-                            placeholder="(01) 2345-6789">
-                    </div>
-                    <div class="input-wrapper">
-                        <label for="mail">E-mail</label>
-                        <input type="mail" name="mail" id="mail"
-                            required>
+                        responsável
+                        <div class="input-wrapper">
+                            <label for="gardian">Nome do
+                                responsável</label>
+                            <input type="text" name="gardian"
+                                id="gardian">
+                            <small>Principal responsável</small>
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="phone">Telefone</label>
+                            <input type="text" name="phone" id="phone"
+                                placeholder="(01) 2345-6789">
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="mail">E-mail</label>
+                            <input type="mail" name="mail" id="mail"
+                                required>
                             <div class="error">
-                                <img src="assets/icons/alert-circle.svg" alt="icone alerta">
+                                <img src="assets/icons/alert-circle.svg"
+                                    alt="icone alerta">
                                 <span>Insira um e-mail válido.</span>
                             </div>
-                    </div>
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="enroll-options">
+                        <legend>Opções de matrícula</legend>
+
+                        <div class="input-wrapper">
+                            <label>Selecione o turno de estudo</label>
+
+                            <div class="radio-wrapper">
+                                <div class="radio-inner">
+                                    <div class="radio-img"></div>
+                                    <input type="radio" name="shift"
+                                        id="shift" value="morning"
+                                        id="morning">
+                                    <img src="assets/icons/sun-cloud-02.svg"
+                                        alt="sol e nuvem">
+                                    <label for="morning">Manhã</label>
+                                </div>
+                                <div class="radio-inner">
+                                    <div class="radio-img"></div>
+                                    <input type="radio" name="shift"
+                                        id="shift" value="evening"
+                                        id="evening">
+                                    <img src="assets/icons/sun-02.svg"
+                                        alt="sol">
+                                    <label for="evening">Tarde</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label>Em qual esporte você gostaria de
+                                inscrever seu filho?</label>
+
+                            <div class="radio-wrapper">
+                                <div class="radio-inner">
+                                    <div class="radio-img"></div>
+                                    <input type="radio" name="sport"
+                                        id="football">
+                                    <img src="assets/icons/football.svg"
+                                        alt="futebol">
+                                    <label
+                                        for="football">Futebol</label>
+                                </div>
+
+                                <div class="radio-inner">
+                                    <div class="radio-img"></div>
+                                    <input type="radio" name="sport"
+                                        id="volei">
+                                    <img src="assets/icons/volleyball.svg"
+                                        alt="volei">
+                                    <label
+                                        for="volei">Volei</label>
+                                </div>
+
+                                <div class="radio-inner">
+                                    <div class="radio-img"></div>
+                                    <input type="radio" name="sport"
+                                        id="basketball">
+                                    <img src="assets/icons/basketball-02.svg"
+                                        alt="basketball">
+                                    <label
+                                        for="basketball">Basquete</label>
+                                </div>
+
+                                <div class="radio-inner">
+                                    <div class="radio-img"></div>
+                                    <input type="radio" name="sport"
+                                        id="boxe">
+                                    <img src="assets/icons/boxing-glove-01.svg"
+                                        alt="boxe">
+                                    <label
+                                        for="boxe">Boxe</label>
+                                </div>
+                                
+                                <div class="radio-inner">
+                                    <div class="radio-img"></div>
+                                    <input type="radio" name="sport"
+                                        id="yoga">
+                                    <img src="assets/icons/yoga-02.svg"
+                                        alt="yoga">
+                                    <label
+                                        for="yoga">Yoga</label>
+                                </div>
+
+                                <div class="radio-inner">
+                                    <div class="radio-img"></div>
+                                    <input type="radio" name="sport"
+                                        id="swimming">
+                                    <img src="assets/icons/swimming.svg"
+                                        alt="swimming">
+                                    <label
+                                        for="swimming">Natação</label>
+                                </div>
+
+                            </div>
+                        </div>
+                    </fieldset>
+
+
                 </form>
             </div>
         </main>
